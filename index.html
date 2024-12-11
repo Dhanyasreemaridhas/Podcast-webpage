@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="Background-container">
+            <div class="top-part">
+                <h1>Podcasts</h1>
+            </div>
+            <div class="bottom-part d-flex flex-row justify-content-center">
+
+                <div class="image1">
+                    <ul>
+                        <li>
+
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" height="100px" width="100px" onclick="display('sectionPurijagannadh')" />
+                            <p>Puri Jagannadh</p>
+                            <p>24 Episodes</p>
+                        </li>
+                        <li>
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sadhguru-img.png" height="100px" width="100px" onclick="display('sectionSadh')" />
+                            <p>Sadhguru</p>
+                            <p>49 Episodes</p>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="image2">
+                    <ul>
+                        <li><img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/tedx-img.png" height="100px" width="100px" onclick="display('sectiont')" />
+                            <p>Tedx talks</p>
+                            <p>12 Episodes</p>
+                        </li>
+                        <li>
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/on-purpose-img.png" height="100px" width="100px" onclick="display('sectionPurpose')" />
+                            <p>On purpose</p>
+                            <p>49 Episodes</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="sectionPurijagannadh" class="two d-flex flex-column justify-content-between">
+        <div class="toppuri d-flex flex-row justify-content-between" onclick="display('sectionHome')">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" height="100px" width="100px" />
+            <div class="text">
+                <p>Podcast</p>
+                <h1>Puri Jagannadh<br>Podcast</h1>
+                <p>The Puri Jagannadh Podcast</p>
+            </div>
+        </div>
+        <div class="puri2 d-flex flex-row justify-content-between">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" height="100px" width="100px" />
+            <div class="text2puri">
+                <p>Molecular Gastronomy</p>
+                <h1>Anything happens there it<br>will not cook,...</h1>
+                <p>15 min</p>
+            </div>
+        </div>
+        <div class="puri2 d-flex flex-row justify-content-between">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" height="100px" width="100px" />
+            <div class="text3puri">
+                <p>Mysterious book</p>
+                <h1>The Voynich manuscript is<br>the 15th century book...</h1>
+                <p>12 min</p>
+            </div>
+        </div>
+        <div class="puri2 d-flex flex-row justify-content-between">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" height="100px" width="100px" />
+            <div class="text4puri">
+                <p>Predator Drone</p>
+                <h1>The most power full drone<br>It is 10 feet height...</h1>
+                <p>10 min</p>
+            </div>
+        </div>
+        <div class="puri2 d-flex flex-row justify-content-between">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" height="100px" width="100px" />
+            <div class="text5puri">
+                <p>Paella</p>
+                <h1>The national dish of spain. It<br>was first star...</h1>
+                <p>6 min</p>
+            </div>
+        </div>
+        <div id="sectiont" class="three d-flex flex-column justify-content-between">
+            <div class="toppuri d-flex flex-row justify-content-between" onclick="display('sectionPur')">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" height="100px" width="100px" />
+                <div class="text">
+                    <p>Podcast</p>
+                    <h1>Puri Jagannadh<br>Podcast</h1>
+                    <p>The Puri Jagannadh Podcast</p>
+                </div>
+            </div>
+            <div class="pod d-flex flex-row justify-content-between">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" height="100px" width="100px" />
+                <div class="text2puri">
+                    <p>Molecular Gastronomy</p>
+                    <h1>Anything happens there it<br>will not cook,...</h1>
+                    <p>15 min</p>
+                </div>
+            </div>
+            <div class="pod d-flex flex-row justify-content-between">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" height="100px" width="100px" />
+                <div class="text3puri">
+                    <p>Mysterious book</p>
+                    <h1>The Voynich manuscript is<br>the 15th century book...</h1>
+                    <p>12 min</p>
+                </div>
+            </div>
+            <div class="pod d-flex flex-row justify-content-between">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" height="100px" width="100px" />
+                <div class="text4puri">
+                    <p>Predator Drone</p>
+                    <h1>The most power full drone<br>It is 10 feet height...</h1>
+                    <p>10 min</p>
+                </div>
+            </div>
+            <div class="pod d-flex flex-row justify-content-between">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/puri-jagannadh-img.png" height="100px" width="100px" />
+                <div class="text5puri">
+                    <p>Paella</p>
+                    <h1>The national dish of spain. It<br>was first star...</h1>
+                    <p>6 min</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+
+</body>
+
+</html>
